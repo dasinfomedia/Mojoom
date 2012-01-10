@@ -1,0 +1,79 @@
+function creategp()
+{
+$model = & $this->getModel ( 'pgroup' );
+
+$msgData = JRequest::get( 'POST' );
+
+if ($gid = $model->store($msgData)) {
+
+CFactory::load( 'helpers' , 'url' );
+CFactory::load( 'libraries', 'activities' );
+$my = CFactory::getUser();
+
+if($msgData['groupid'] == 0) {
+$group = $model->getGroup($gid);
+$msg = JText::_('GROUP CREATED NOTICE');
+//$msg = JText::sprintf('GROUP CREATED NOTICE', $group->name );
+$act = new stdClass();
+
+$act->cmd = 'group.create';
+
+$act->actor = $my->id;
+
+$act->target = 0;
+
+$act->title = JText::sprintf('{actor} created a new group, <a href="%1$s">%2$s</a>' , '{group_url}' , $group->name );
+
+$act->content = ( $group->approvals == 0) ? $group->description : '';
+
+$act->app = 'groups';
+
+$act->cid = $group->id;
+
+$params = new JParameter('');
+
+$params->set( 'action', 'group.create' );
+
+$params->set( 'group_url' , CUrl::build( 'groups' , 'viewgroup' , array( 'groupid' => $gid ) , false ) );
+
+CActivityStream::add( $act, $params->toString() );
+
+}else{
+$msg = JText::_('GROUP UPDATED NOTICE');
+//$msg = JText::sprintf('GROUP UPDATED NOTICE', $group->name );
+// add this in to the activity
+// get the group name
+$group = $model->getGroup($msgData['groupid']);
+$act = new stdClass();
+
+$act->cmd = 'group.updated';
+
+$act->actor = $my->id;
+
+$act->target = 0;
+
+$act->title = JText::sprintf('{actor} updated group, <a href="%1$s">%2$s</a>' , '{group_url}' , $group->name );
+
+$act->content = '';
+
+$act->app = 'groups';
+
+$act->cid = $group->id;
+
+
+
+$params = new JParameter('');
+
+$params->set('group_url' , CUrl::build( 'groups' , 'viewgroup' , array( 'groupid' => $msgData['groupid'] ) , false ) );
+
+// Add activity logging
+
+CActivityStream::add( $act, $params->toString() );
+
+}
+
+} else {
+$msg = JText::_('ERROR IN GROUP');
+}
+$this->setredirect('index.php?option=com_mojoom&controller=groups&task=mygroups',$msg);
+}
