@@ -1,0 +1,2590 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6{  
+    margin:0;  
+    padding:0;  
+    -webkit-text-size-adjust:none;  
+    }  
+body{
+	font-size:14px;
+	margin:0;
+	padding:0;
+	font-family:calibri;	
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+{ 
+	margin:0;
+	padding:0;
+}
+
+table
+{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+a {
+color:#fff;
+}
+
+fieldset,img
+{ 
+	border:0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var
+{
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul
+{
+	list-style:none;
+}
+
+b
+caption,th
+{
+	text-align:left;
+}
+
+q:before,q:after
+{
+	content:'';
+}
+
+abbr,acronym
+{ 
+	border:0;
+}
+a
+{
+   text-decoration:none;
+}
+/*//////////////////////Master reset Ends////////////////////////////*/
+.contentpaneopen {
+float: left;
+	padding-bottom: 3%;
+ 	padding-left: 3%;
+ 	padding-top: 3%;
+  	width: 94%;
+	text-align:justify;
+}
+
+#main
+{
+	width:100%;
+	float:left;	
+}
+#header
+{
+	width:100%;
+	float:left;
+	background:#015382;
+}
+#logo
+{
+	float: left;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-top: 3%;
+	width: 30%;
+}
+
+#welcomemsg {
+	color: #FFFFFF;
+	float: left;
+	padding-top: 3%;
+	width: 42%;
+}
+
+#welcomemsg p {
+	float:left;
+	width:auto;
+	padding-top:2px;
+	padding-left:10px;
+}
+
+#welcomemsg form {
+	float:left;
+}
+
+#search
+{
+	width:54%;
+	float: left;
+	padding-top:10px;
+}
+
+#socialnet {
+	float: right;
+	padding-right: 1%;
+	padding-top: 3%;
+	text-align: right;
+	width: 24%;
+}
+
+#mod_search_searchword {
+background:#015382;
+border:1px solid #fff;
+padding:3px;
+color:#fff;
+font-size:14px;
+font-style:italic;
+}
+
+#main_menu 
+{
+	float:left;
+	width:100%;
+	background:url(../images/menu_bg_strip.png) top left repeat-x;
+	height:49px;
+}
+
+.menu
+{
+	background: url("../images/mainmenu.png") top left no-repeat;
+    border: medium none;
+    float: left;
+    height: 49px;
+    width: 100%;
+}
+
+#header_text
+{
+	width:100%;
+	float:left;
+    background-image:url("../images/red_menu_header.png");
+    height:44px;
+}
+
+#content
+{
+	width:100%;
+	float:left;
+	background-color: #015382; 
+	color: #ffffff;
+    min-height:350px;
+}
+
+#main_menu li {
+    float: left;
+    text-align: center;
+    margin:5px;
+	width:70px;
+}
+#main_menu li a {
+   float: left;
+   width: 60px;
+   height:40px;f
+   ont-size:0px;
+   text-indent:-99999px;
+}
+
+#main_menu li a img {
+	border:none;
+}
+.menu .active {
+      /* background:url("../images/activelink.png") no-repeat;
+	  opacity:50;*/
+}
+
+.homepagecontainer {
+	float: left;
+	padding-bottom: 3%;
+ 	padding-left: 3%;
+ 	padding-top: 3%;
+  	width: 94%;
+	text-align:justify;
+}
+
+#profile_head{
+  width:100%; float:left;
+}
+
+#profile_detail
+{
+width:100%; float:left;
+}
+
+#profile_image
+{
+float: left;
+margin: 5px;
+padding-left: 10px;
+padding-top: 15px;
+width: 31%;
+padding-bottom:4%;
+}
+
+#profile_image img
+{
+ 	border: 3px solid #012A42;
+   	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	height: 74px;
+	width:80px;
+	float:left;
+}
+
+#profile_overview
+{
+width:50%; float:left;
+padding-top:20px;
+}
+
+#profile_view
+{
+width:50%; float:left;
+}
+
+#profile_status
+{
+width:50%; float:left;
+}
+
+#profile_overview span
+{
+color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+#profile_menu
+{
+width:95%; 
+float:left;
+margin-left:5%;
+}
+
+#profile_menu span {
+background: url("../images/box.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  padding-bottom: 4%;
+  width: 33%;
+  height:72px;
+}
+
+span#chat, span#gallery
+{
+	width:30%;
+}
+
+span#detail a
+{
+     background: url("../images/view_details.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 20px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:5px;
+	 color:#FFFFFF;
+}
+
+span#message a
+{
+     background: url("../images/massage.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 20px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+ 	 margin-left:14px;
+	 color:#FFFFFF;
+}
+
+span#gallery a
+{
+     background: url("../images/gallery.png") no-repeat scroll center top transparent;
+    float: left;
+     height: 20px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:20px;
+	 color:#FFFFFF;
+}
+
+span#wall a
+{
+     background: url("../images/wall.png") no-repeat scroll center top transparent;
+    float: left;
+     height: 20px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:29px;
+	 color:#FFFFFF;
+}
+
+span#friend a
+{
+     background: url("../images/friend.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 20px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:22px;
+	 color:#FFFFFF;
+}
+
+span#chat a
+{
+      background: url("../images/moreicon.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 21px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:27px;
+	 color:#FFFFFF;
+}
+
+span#pphotos a
+{
+     background: url("../images/photosss.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 21px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:27px;
+	 color:#FFFFFF;
+}
+
+span#pvideos a
+{
+     background: url("../images/videosss.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 21px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:27px;
+	 color:#FFFFFF;
+}
+
+span#pgroups a
+{
+     background: url("../images/groupsss.png") no-repeat scroll center top transparent;
+     float: left;
+     height: 21px;
+     margin-top: 10px;
+     padding-top: 25px;
+     text-align:center;
+     outline:0;
+	 margin-left:27px;
+	 color:#FFFFFF;
+}
+
+
+
+fieldset {
+  	border: 2px solid #414648;
+	-moz-background-inline-policy: continuous;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD #DDDDDD #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+    padding: 3px;
+    width:93%;
+	float:left;
+}
+
+.col100 label
+{
+	float:left;
+	width:45%;
+}
+
+.col100 label
+{
+	float:left;
+	width:45%;
+}
+
+.compose_item span#message,span#subject,span#id 
+{
+	float:left;
+	width:100%;
+}
+
+.col100 span
+{
+	float:left;
+	width:50%;
+}
+
+#message_head
+{
+	float:left;
+	width:100%;
+}
+
+#inbox
+{
+background-color: #022A43; 
+border-bottom: 1px solid #000000;
+float: left;
+margin-left: 3%;
+margin-top: 3%;
+width: 94%;
+}
+
+#outbox
+{
+	background-color: #022A43;
+	float: left;
+	margin-left: 3%;
+	width: 94%;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #015382;
+}
+
+#compose {
+	background-color: #022A43;
+	float: left;
+	margin-left: 3%;
+	width: 94%;
+	margin-bottom:3%;
+	border-top:1px solid #015382;
+}
+
+#inbox span {
+	background: url("../images/inbox.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+#inbox span a {
+  	background: url("../images/arrow.png") no-repeat scroll right top transparent;
+	color: #FFFFFF;
+	float: left;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 50px;
+	width: 80%;
+}
+
+#outbox span {
+    float: left;
+    background:url("../images/outbox.png") no-repeat;     
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+
+#outbox span a{
+    float: left;
+	width:80%;
+    background: url("../images/arrow.png") top right no-repeat;
+    height:30px;
+    padding-left:50px;
+    color:#ffffff;
+    font-weight:bold;
+	padding-top: 5px;
+}
+
+#compose span {
+    float: left;
+    background:url("../images/compose.png") no-repeat;     
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+
+#compose span a{
+float: left;
+width:80%;
+background: url("../images/arrow.png") top right no-repeat;
+color:#ffffff;
+font-weight:bold;
+height: 30px;
+padding-top: 5px;
+padding-left: 50px;
+}
+
+#back,#forward,#refresh
+{
+	float: left;
+    width: 20%;
+}
+
+#refresh .refresh {
+  background: url("../images/refresh.png") no-repeat scroll 0 0 transparent;
+  border: medium none;
+  color: #FFFFFF;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  margin: 7px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#header_title
+{
+	float: left;
+	font-size: 18px;
+	margin-top: 10px;
+	text-align: center;
+	text-transform:capitalize;
+	width:60%;
+}
+
+#edit
+{
+	width:100px;
+	float:left;
+}
+
+.back
+{
+    background: url("../images/back_black.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    margin: 7px;
+    width: 50px;
+    cursor: pointer;
+}
+#back .edit
+{
+    background: url("../images/edit_black.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    margin: 7px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.edit {
+	float:right;
+	background: url("../images/edit_black.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    margin: 7px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.add_friend
+{
+    background: url("../images/add_friend.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: right;
+   font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    margin: 7px;
+    width: 75px;
+    cursor: pointer;
+}
+.remove_friend
+{
+    background: url("../images/remove_friend.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: right;
+   font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    margin: 7px;
+    width: 105px;
+    cursor: pointer;
+}
+#modulesections {
+	float:left;
+	width:100%;
+	background:#015382;
+}
+
+#footer{
+background: none repeat scroll 0 0 #FAFAFB;
+color: #2D333A;
+float: left;
+height: 30px;
+padding-top: 15px;
+text-align: center;
+width: 100%;
+}
+
+#footer .backtop {
+    color: #2D333A;
+    float: right;
+    padding-right: 5px;
+	margin:-5px 0;
+}
+
+#friend_main{
+	float: left;
+    text-align: center;
+    width: 100%;
+	margin-top:5px;
+}
+
+#result
+{
+	float:left;
+	width:97%;
+	margin:5px;
+}
+
+.result_data
+{
+	float:left;
+	width:100%;	
+	background: url("../images/sap.png") repeat-x scroll left bottom transparent;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.profile_img
+{
+float:left;
+width:20%;
+margin-top:2px;
+text-align:center;
+}
+
+.profile_img img
+{
+margin:2px;
+border:1px solid #FFFFFF;
+padding:1px;
+}
+
+.profile_name
+{
+float:left;
+width:70%;
+font-weight:bold;
+margin-top:7px;
+text-transform: capitalize;
+}
+
+.profile_status img
+{
+float:left;
+margin:7px;
+}
+
+.profile_status
+{
+float:left;
+width:10%;
+margin-top:7px;
+}
+
+#add_frined input
+{
+margin:5px;
+}
+
+.msg {
+float:left;
+width:100%;
+text-align:center;
+}
+
+.detail
+{
+float: left;
+margin-left: 3%;
+width: 94%;
+}	
+
+.detail span
+{
+	float:left;
+	width:95%;
+	padding:10px;
+	padding-left:0px;
+}	
+
+.detail_1
+{
+	background-color: #012A42;
+	float: left;
+	padding: 2%;
+	width: 96%;
+}
+
+.detail_1 label
+{
+	width:35%;
+	float:left;
+	/*padding-top:10px !important;*/
+	padding-bottom:10px !important;
+	padding-left:2%;
+}
+
+.detail_1 span
+{
+	max-width:57% !important;
+	float:left;
+	word-wrap: break-word;
+	padding-top:0px !important;
+	padding-bottom:10px !important;
+	padding-right:0px !important;
+}
+
+
+.detail_border
+{
+	background:url("../images/det_border.png") top left repeat-x;
+	height:2px;
+	float:left;
+	width:100%;
+}
+
+.detail_border_bottom{
+	float:left;
+	width:95%;
+	padding:1.7%;
+}
+
+/* BUTTON CSS */
+
+.inputfldst .button, .validate {
+	background: url("../images/button_big.png") no-repeat scroll left top transparent;
+	border: 0 none;
+	float: left;
+	font-weight: bold;
+	height: 26px;
+	width: 81px;
+	color: #015382 !important;
+}
+
+/* BUTTON CSS*/
+
+#groups{
+background-color: #022A43;
+border-bottom: 1px solid #000000;
+float: left;
+margin-left: 3%;
+margin-top: 3%;
+width: 94%;
+}
+
+#events
+{
+background-color: #022A43;
+border-bottom: 1px solid #000000;
+border-top: 1px solid #015382;
+float: left;
+margin-left: 3%;
+width: 94%;
+}
+
+
+
+#chats{
+background-color: #022A43;
+border-top: 1px solid #015382;
+float: left;
+margin-bottom: 3%;
+margin-left: 3%;
+width: 94%;
+}
+
+#groups span {
+	background: url("../images/group.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+
+#events span {
+	background: url("../images/event.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+
+#chats span {
+	background: url("../images/chat.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 26px;
+	margin: 3%;
+	width: 94%;
+}
+
+#groups a ,#events a, #chats a {
+background: url("../images/arrow.png") no-repeat scroll right top transparent;
+color: #FFFFFF;
+float: left;
+font-weight: bold;
+height: 30px;
+padding-left: 50px;
+padding-top: 5px;
+width: 80%;
+}
+
+/* compose margin css */
+.composeform {
+	float: left;
+	margin-left: 4%;
+	margin-top: 3%;
+	width: 94%;
+}
+.outbox-list
+{
+}
+.outbox-list .msgsaperator {
+}
+.inbox-read span a {
+	color:#ffffff;
+}
+
+
+
+/* wall css */
+#wall-containter {
+	float:left;
+	padding-left:3%;
+	width:93%;
+	padding-top:3%;
+}
+
+#wall-containter div.wallComments {
+    border-bottom: 1px solid #414648;
+	margin-bottom:10px;
+}
+
+#wall-containter div.cavatar {
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+#wall-containter div.cavatar img {
+    height: 36px;
+    width: 36px;
+	border: 1px solid #333333;
+	padding: 1px;
+}
+
+#wall-containter div.ccontent-avatar {
+    margin: 0 0 0 50px;
+    padding: 0 5px 5px;
+}
+
+.wall-cocs {
+    margin-right: 40px;
+    margin-top: 8px;
+}
+
+.wallcmt {
+    background: none repeat scroll 0 0 #2C3335;
+    margin-bottom: 1px;
+    padding: 4px 4px 4px 4px;
+    position: relative;
+	min-height: 32px;
+}
+
+.wall-coc-avatar {
+float: left;
+left: 4px;
+padding-right: 10px;
+top: 4px;
+width: 32px;
+}
+/* wall css */
+
+
+/* wall css according to the psd*/
+.componentcontent .app-box-content {
+float: left;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+padding-bottom:3%;
+}
+
+.componentcontent div.joms-newsfeed-item {
+background:url("../images/sap.png") bottom left repeat-x;
+padding-top:10px;
+padding-bottom:10px;
+float:left;
+width:100%;
+}
+
+.componentcontent .newsfeed-avatar {
+float: left;
+width: 50px;
+}
+
+.componentcontent .joms-newsfeed-item .newsfeed-favicon {
+float:left;
+padding-bottom:20px;
+}
+
+.componentcontent img.icon {
+margin: 0 !important;
+padding: 0 1px !important;
+vertical-align: middle;
+}
+
+.componentcontent .joms-newsfeed-item .newsfeed-content {
+float:left;
+width:80%;
+}
+
+.componentcontent .newsfeed-content-top {
+float:left;
+}
+
+.componentcontent .newsfeed-date {
+float:right;
+width:83%;
+text-align:left;
+}
+
+/* wall css according to the psd*/
+
+/* groups */
+
+.componentcontent #community-groups-wrap {
+float:left;
+padding-top:3%;
+padding-left:3%;
+width:94%;
+padding-bottom:3%;
+}
+
+.creategroupformtable{
+background-color:#012A42;
+float:left;
+}
+.creategroupformtable tr {
+float:left;
+width:100%;
+}
+
+.creategroupformtable tr td.key {
+float: left;
+padding-bottom: 4%;
+padding-left: 4%;
+padding-top: 4%;
+width: 36%;
+}
+
+.creategroupformtable tr td.value {
+float:left;
+width:60%;
+padding-top:4%;
+padding-bottom:4%;
+}
+
+/* groups */
+
+#profile_notification
+{
+width:50%; float:left;
+}
+
+#profile_notification a {
+background: url("../images/notification.png") no-repeat scroll 0 0 transparent;
+float: left;
+font-weight: bold;
+height: 13px;
+padding: 9px 0;
+text-align: center;
+width: 30px;
+}
+
+.componentcontent #cwin_logo {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    margin-left: 8px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+/*********** view group listing page css **********/
+
+.componentcontent .groupscontainer {
+float:left;
+padding-left:3%;
+padding-top:3%;
+padding-bottom:3%;
+width:94%;
+}
+
+.componentcontent .groupscontainer .community-groups-results-item {
+border: 1px solid #383838;
+-moz-border-bottom-colors: none;
+-moz-border-image: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #DDDDDD #DDDDDD #CCCCCC;
+border-radius: 5px 5px 5px 5px;
+border-style: solid;
+border-width: 1px;
+display: inline;
+float: left;
+margin: 0 0 10px;
+padding: 0;
+width: 100%;
+}
+
+.componentcontent .groupscontainer .community-groups-results-left {
+float: left;
+margin: 10px;
+width: 20%;
+}
+
+.eventDate
+{ 
+-moz-border-bottom-colors: none;
+-moz-border-image: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+background: none repeat scroll 0 0 #EEEEEE;
+border-color: -moz-use-text-color #DDDDDD #DDDDDD;
+border-right: 1px solid #DDDDDD;
+border-style: none solid solid;
+border-width: medium 1px 1px;
+font: bold 110% Arial;
+padding: 2px;
+text-align: center !important;
+text-transform: uppercase; 
+width:100%;
+color:#000000;
+}
+
+.componentcontent .groupscontainer img.avatar {
+}
+
+.componentcontent .groupscontainer .community-groups-results-right {
+float: left;
+margin-top: 10px;
+width: 70%;
+/*margin-bottom:10px;*/
+}
+
+.componentcontent .groupscontainer h3.groupName {
+float:left;
+width:auto;
+}
+
+.community-groups-results-item .community-groups-results-right .groupDescription {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupscontainer .community-groups-results-right .groupActions1 {
+float:left;
+width:100%;
+}
+
+/*********** view group listing page css **********/
+
+/*********** view group member page css ***********/
+
+.componentcontent .groupscontainer .GroupName {
+float:left;
+width:100%;
+padding-bottom:3%;
+}
+
+.componentcontent .groupscontainer .mini-profile
+{
+border: 1px solid #ccc;
+border-radius: 3px 3px 3px 3px;
+float: left;
+margin-bottom:10px;
+width: 98.5%;
+}
+
+.componentcontent .groupscontainer div.mini-profile-avatar {
+float: left;
+width:20%;
+}
+
+.groupscontainer div.mini-profile-avatar img.avatar {
+border: 1px solid #ccc;
+float: left;
+padding: 1px;
+width:32px;
+height:32px;
+}
+
+.groupscontainer .mini-profile div.mini-profile-details {
+width:80%;
+float:left;
+}
+
+.groupscontainer .mini-profile .mini-profile-details-status {
+float:left;
+padding-bottom:5px;
+width:100%;
+}
+
+.groupscontainer .mini-profile .icon-group {
+float:left;
+padding-right:5px;
+}
+
+.groupscontainer .mini-profile .icon-write {
+float:left;
+}
+
+.groupscontainer .mini-profile div.mini-profile-details .name {
+float:left;
+padding-right:20px;
+}
+
+/**** join group css ****/
+
+.componentcontent .groupswindowcontainer {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupswindowcontainer #cwin_logo {
+color: #FFFFFF;
+font-size: 16px;
+font-weight: bold;
+height: 30px;
+left: 0;
+line-height: 30px;
+margin-left: 14px;
+margin-top:10px;
+position: absolute;
+top: 0;
+z-index: 999;
+}
+
+#sbox-overlay {
+/*height:100%!important;*/
+height:700px!important;
+float:left;
+}
+/**** join group css ****/
+
+/*********** view group member page css ***********/
+
+/******** wall */
+
+.app-box-content a {
+font-size:16px;
+color:#fff;
+font-weight:bold;
+}
+
+/******** wall */
+
+/*** outbox ***/
+.event_thumb img
+{
+border: 1px solid #414648;
+padding: 0;
+}
+
+.outbox-list span a {
+color: #FFFFFF;
+}
+
+/*** outbox ***/
+
+/*** eventdetail page ***/
+.event-top {
+float:left;
+width:100%;
+}
+
+.event-left {
+float: left;
+width: 70px;
+}
+
+.event-avatar img {
+border: 1px solid #414648;
+padding: 0;
+}
+
+.event-avatar img {
+background: none repeat scroll 0 0 transparent;
+}
+
+.event-top .event-main {
+margin-left: 85px;
+}
+
+.event-info {
+margin: 0;
+}
+div.ctitle {
+border-bottom: 2px solid #777777;
+}
+
+div#event_time{
+width:100%;
+float:left;
+margin-top:10px;
+}
+
+div.ctitle {
+border-bottom: 2px solid #DDDDDD;
+font-weight: bold;
+margin: 0 0 5px !important;
+padding: 5px 0 !important;
+}
+
+.ctitle span.cowner {
+font-size: 12px;
+font-weight:normal;
+}
+
+.cparam {
+padding-left: 0;
+position: relative;
+}
+
+.clabel {
+font-weight: bold;
+position: relative;
+width: 40%;
+float:left;
+}
+
+.cdata {
+margin-bottom: 3px;
+padding-bottom: 3px;
+width:60%;
+float:left;
+vertical-align:middle;
+}
+
+.small {
+font-size: 90% !important;
+width: 100% !important;
+float:left;
+}
+
+.cdata span {
+color: #666666;
+display: inline-block;
+font-weight: bold;
+text-transform: uppercase;
+width: 35px;
+}
+/*** eventdetail page ***/
+
+/****** group detail page ****/
+
+.componentcontent .groupscontainer .group {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupscontainer .group .cLayout ,
+.componentcontent .groupscontainer .group .cMain,
+.componentcontent .groupscontainer .group .group-top {
+width:100%;
+float:left;
+}
+.componentcontent .groupscontainer .group .group-left {
+float:left;
+width:30%;
+}
+
+.componentcontent .groupscontainer .group .group-avatar
+{
+float:left;
+width:100%;
+}
+
+.componentcontent .groupscontainer .group .group-avatar img {
+border: 1px solid #EEEEEE;
+padding: 1px;
+/*width:100px;
+height:100px;*/
+width:69px;
+height:69px;
+}
+
+.componentcontent .groupscontainer .group-avatar .tag-this
+{
+height: 30px;
+left: 2px;
+position: relative;
+text-indent: -9999px;
+top: -77px;
+width: 30px;
+z-index: 100;
+}
+
+.componentcontent .groupscontainer div.cowner {
+background: url("../images/icon-star-1.png") no-repeat scroll 0 6px transparent;
+}
+
+.componentcontent .groupscontainer .group-main {
+float:left;
+width:70%;
+}
+
+.componentcontent .groupscontainer .group-info {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupscontainer div.ctitle {
+border-bottom: medium none;
+float: left;
+padding-top: 0 !important;
+width: 100%;
+}
+
+.componentcontent .groupscontainer div.ctitle span#title {
+border-bottom: 2px solid #DDDDDD;
+float:left;
+width:100%;
+padding-bottom:5px;
+margin-bottom:5px;
+}
+
+.componentcontent .groupscontainer .group-desc {
+width:100%;
+float:left;
+padding-top:2%;
+}
+
+.componentcontent .groupscontainer .action {
+border: 0 none;
+float: left;
+cursor:pointer;
+font-weight: bold;
+width: auto;
+background:none;
+color:#fdfbfb;
+font-size:11px;
+}
+
+.componentcontent .groupscontainer .big {
+}
+
+.componentcontent .groupscontainer .bigger {
+}
+
+.componentcontent .groupscontainer .biggest {
+}
+
+.groupscontainer .groupactions,
+.groupscontainer .groupactions ul
+{
+float:left;
+width:99%;
+margin-top:3%;
+padding-left:1%;
+}
+
+.groupscontainer .groupactions ul li {
+background: url("../images/box.png") no-repeat scroll 0 0 transparent;
+float: left;
+height: 72px;
+padding-bottom: 4%;
+/*width: 35%;*/
+width:33%;
+}
+.groupscontainer .groupactions ul li a {
+float: left;
+text-align: center;
+width: 87px;
+}
+
+.groupscontainer .groupactions ul li#grpdiscuss,
+.groupscontainer .groupactions ul li#grpphotos,
+.groupscontainer .groupactions ul li#grpdelete
+{
+}
+
+.groupscontainer .groupactions ul li#grpinvite a {
+background: url("../images/grpinvite.png") no-repeat scroll center top transparent;
+height: 22px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpinvite a input,
+.groupscontainer .groupactions ul li#grpmembers a input,
+.groupscontainer .groupactions ul li#grpdiscuss a input,
+.groupscontainer .groupactions ul li#grpevent a input,
+.groupscontainer .groupactions ul li#grpnews a input,
+.groupscontainer .groupactions ul li#grpphotos a input,
+.groupscontainer .groupactions ul li#grpvideos a input,
+.groupscontainer .groupactions ul li#grpwall a input,
+.groupscontainer .groupactions ul li#grpdelete a input
+{
+padding-top:30px;
+width:100%;
+}
+
+.groupscontainer .groupactions ul li#grpjoin a input,
+.groupscontainer .groupactions ul li#grpleave a input {
+padding-top:33px;
+width:100%;
+}
+
+.groupscontainer .groupactions ul li#grpmembers a {
+background:url(../images/grpmembers.png) no-repeat scroll center top transparent;
+height: 24px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpdiscuss a {
+background:url(../images/grpdiscuss.png) no-repeat scroll center top transparent;
+height: 24px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpevent a {
+background:url(../images/grpevent.png) no-repeat scroll center top transparent;
+height: 24px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpnews a {
+background:url(../images/grpannounce.png) no-repeat scroll center top transparent;
+height: 23px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpphotos a {
+background:url(../images/grpphotos.png) no-repeat scroll center top transparent;
+height: 23px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpvideos a {
+background:url(../images/grpvideos.png) no-repeat scroll center top transparent;
+height: 26px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpwall a {
+background:url(../images/grpwall.png) no-repeat scroll center top transparent;
+height: 22px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpdelete a {
+background:url(../images/grpdel.png) no-repeat scroll center top transparent;
+height: 20px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpjoin a {
+background:url(../images/grpjoin.png) no-repeat scroll center top transparent;
+height: 32px;
+margin-top: 12px;
+width: 85px;
+}
+
+.groupscontainer .groupactions ul li#grpleave a {
+background:url(../images/grpleave.png) no-repeat scroll center top transparent;
+height: 32px;
+margin-top: 12px;
+width: 85px;
+}
+/****** group detail page ****/
+
+.invite {
+background: url("../images/button.png") no-repeat scroll 0 0 transparent;
+border: medium none;
+color: #000000;
+cursor: pointer;
+float: right;
+font-size: 12px;
+font-weight: bold;
+height: 20px;
+margin: 7px;
+width: 55px;
+}	
+
+/*********** event like dislike css ***************/
+
+/* normal button without having it liked*/
+
+.componentcontent .jsApLike {
+float: left;
+padding-top: 10px;
+width: 70px;
+}
+
+.componentcontent span#like-container {
+border: 1px solid #CCCCCC;
+/*border-radius: 3px 3px 3px 3px;*/
+border-radius: 3px 2px 2px 3px;
+float: right;
+}
+
+.componentcontent .like_button {
+background: url("../images/like-button-bg.png") no-repeat scroll 0 0 transparent;
+border-right: 2px solid #CCCCCC;
+float: left;
+height: 24px;
+text-indent: -9999px;
+width: 32px;
+}
+
+.componentcontent .like_button:hover {
+background-position:0 -24px;
+}
+
+.componentcontent .dislike_button {
+background: url("../images/like-button-bg.png") no-repeat scroll 0 -47px transparent;
+float: left;
+height: 24px;
+text-indent: -9999px;
+width: 32px;
+}
+
+.componentcontent .dislike_button:hover {
+background-position:0 -71px;
+}
+
+.componentcontent .like_button_active {
+background: url("../images/like-button-bg.png") no-repeat scroll 0 -96px transparent;
+float: left;
+height: 24px;
+text-indent: -9999px;
+width: 32px;
+border-right: 2px solid #CCCCCC;
+}
+
+.componentcontent .dislike_button_active {
+background: url("../images/like-button-bg.png") no-repeat scroll 0 -120px transparent;
+float: left;
+height: 24px;
+text-indent: -9999px;
+width: 32px;
+}
+/*********** event like dislike css ***************/
+
+/*********** notification css ***************/
+
+.componentcontent .notificationcontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .notificationcontainer .community-groups-results-item {
+-moz-border-bottom-colors: none;
+-moz-border-image: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #DDDDDD #DDDDDD #CCCCCC;
+border-radius: 5px 5px 5px 5px;
+border-style: solid;
+border-width: 1px;
+display: inline;
+float: left;
+margin: 0 0 20px;
+padding: 0;
+width: 100%;
+}
+
+.componentcontent .notificationcontainer .community-groups-results-item div.subject {
+border-bottom: 1px solid #DDDDDD;
+font-weight: bold;
+padding: 4px;
+}
+
+.componentcontent .notificationcontainer .community-groups-results-left {
+float: left;
+margin: 10px;
+width: 20%;
+}
+
+.componentcontent .notificationcontainer .community-groups-results-right {
+float: left;
+margin-top: 10px;
+width: 70%;
+}
+
+.componentcontent .notificationcontainer h3.groupName {
+float: left;
+width: 100%;
+}
+
+.componentcontent .notificationcontainer a.subject {
+border-bottom: 2px solid #AAAAAA;
+font-weight: bold;
+padding: 2px 1px;
+}
+
+.componentcontent .notificationcontainer .community-groups-results-item .msgDescription {
+float: left;
+padding-top: 5px;
+width: 70%;
+}
+
+.componentcontent .notificationcontainer .icon-add-friend {
+background: url("../images/icons-16x16.gif") no-repeat scroll 0 -178px transparent;
+padding-left: 20px;
+text-indent: 0;
+display: inline;
+line-height: 15px;
+margin: 10px 15px 0 0;
+padding: 3px 3px 3px 20px;
+text-decoration: none;
+}
+
+.componentcontent .notificationcontainer .icon-remove {
+background: url("../images/icons-16x16.gif") no-repeat scroll 0 -37px transparent;
+text-indent: 0;
+display: inline;
+line-height: 15px;
+margin: 10px 15px 0 0;
+padding: 3px 3px 3px 20px;
+text-decoration: none;
+}
+
+.componentcontent .notificationcontainer .groupDescription .small {
+float:left;
+margin-left:25%;
+margin-bottom:3%;
+width:75%!important;
+}
+
+/*********** notification css ***************/
+
+
+/*********** gruop invite css **************/
+
+.componentcontent .groupsinvitecontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .groupsinvitecontainer .invitation-bg {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupsinvitecontainer .head-note {
+float:left;
+height: 20px;
+line-height: 20px;
+margin: 0;
+padding: 0px 0px 10px;
+width:100%;
+}
+
+.componentcontent .groupsinvitecontainer #community-invitation {
+float: left;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.componentcontent .groupsinvitecontainer .invitation-option {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupsinvitecontainer .invitation-message-container {
+float:left;
+width:100%;
+}
+
+.componentcontent .groupsinvitecontainer .textarea-label {
+float:left;
+width:100%;
+padding-bottom:10px;
+}
+
+.componentcontent .groupsinvitecontainer #message {
+float: left;
+height: 150px;
+width: 100%;
+}
+
+/*********** gruop invite css **************/
+
+/*********** gruop view pending invite css **************/
+
+.componentcontent .groupscontainer .icon-add-friend {
+background: url("../images/accept-icon.png") no-repeat scroll transparent;
+padding-left: 20px;
+text-indent: 0;
+float:left;	
+line-height: 15px;
+margin: 10px 25px 0 0;
+padding: 0 0 0 20px;
+text-decoration: none;
+}
+
+.componentcontent .groupscontainer .groupActions {
+width:100%;
+float:left;
+margin-top: 10px;
+}
+
+.componentcontent .groupscontainer .community-groups-pending-actions{
+width:100%;
+float:left;
+padding-bottom:5px;
+}
+
+.componentcontent .groupscontainer .icon-remove {
+background: url("../images/reject-icon.gif") no-repeat scroll transparent;
+text-indent: 0;
+float:left;	
+line-height: 15px;
+margin: 10px 25px 0 0;
+padding: 0 0 0 20px;
+text-decoration: none;
+}
+
+/*********** gruop view pending invite css **************/
+
+/*********** group discussion css ***********************/
+
+.componentcontent .groupdiscussioncontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .groupdiscussioncontainer a {
+color:#fff;
+font-weight:bold;
+}
+
+.componentcontent .groupdiscussioncontainer .group-discussion {
+background: url("../images/sap.png") repeat-x scroll left bottom transparent;
+float: left;
+padding-bottom: 10px;
+padding-top: 10px;
+width: 100%;
+}
+
+.componentcontent .groupdiscussioncontainer .group-discussion-title {
+background: url("../images/icon-discussion.png") no-repeat 0 3px transparent;
+float:left;
+width:93%;
+padding-left:7%;
+height:16px;
+}
+
+.componentcontent .groupdiscussioncontainer .group-discussion-title a {
+float:left;
+width:auto;
+}
+
+.componentcontent .groupdiscussioncontainer .group-discussion-replies {
+float:right;
+width:auto;
+}
+
+.componentcontent .groupdiscussioncontainer .group-discussion-introtext,
+.componentcontent .groupdiscussioncontainer .group-discussion-author
+{
+float:left;
+padding-left:7%;
+width:93%!important;
+}
+
+/*********** group discussion css ***********************/
+
+/* group discussion create css */
+
+.componentcontent .groupsdisscussioncontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .groupsdisscussioncontainer .formtable,
+.componentcontent .groupsdisscussioncontainer .formtable tbody,
+.componentcontent .groupsdisscussioncontainer .formtable tr.fromrow,
+.componentcontent .groupsdisscussioncontainer .formtable tr.fromrow td.key,
+.componentcontent .groupsdisscussioncontainer .formtable tr.fromrow td.value
+{
+float:left;
+width:100%;
+}
+
+/* group discussion create css */
+
+/* group discussion detail page */
+
+.componentcontent .grpdissdetailcontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .grpdissdetailcontainer #group-discussion-topic {
+width:100%;
+float:left;
+border-bottom: 1px solid #DDDDDD;
+margin-bottom: 10px;
+}
+
+.componentcontent .grpdissdetailcontainer .author-avatar {
+float:left;
+width:20%;
+}
+
+.grpdissdetailcontainer .author-avatar a img.avatar {
+border: 1px solid #CCCCCC;
+padding: 1px;
+width:48px;
+}
+
+.componentcontent .grpdissdetailcontainer .discussion-detail {
+width:80%;
+float:left;
+margin-bottom:10px;
+}
+
+.componentcontent .grpdissdetailcontainer .discussion-detail .discussion-created {
+background: url("../images/icon-discussion.png") no-repeat 0 3px transparent;
+float:left;
+width:92%;
+padding-left:8%;
+margin-bottom:5px;
+}
+
+.componentcontent .grpdissdetailcontainer .discussion-detail .discussion-entry {
+float:left;
+width:92%;
+padding-left:8%;
+}
+
+.grpdissdetailcontainer .app-box,
+.grpdissdetailcontainer #wallForm {
+width:100%;
+float:left;
+}
+
+.grpdissdetailcontainer #wallForm {
+border-bottom: 1px solid #DDDDDD;
+margin-bottom: 10px;
+padding-bottom: 20px;
+}
+
+.componentcontent .grpdissdetailcontainer .wall-tittle {
+float: left;
+font-weight: bold;
+padding: 0 0 10px;
+width: 100%;
+
+}
+
+.componentcontent .grpdissdetailcontainer div.cavatar {
+float: left;
+width: 20%;
+}
+
+.componentcontent .grpdissdetailcontainer div.cavatar img {
+height: 36px;
+width: 36px;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.componentcontent .grpdissdetailcontainer .ccontent-avatar {
+float:left;
+width:80%;
+}
+
+.componentcontent .grpdissdetailcontainer .ccontent-avatar textarea {
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+
+.componentcontent .grpdissdetailcontainer #wallContent {
+float:left;
+width:100%;
+padding-top:10px;
+}
+
+.wallComments {
+float:left;
+border-bottom: 1px solid #414648;
+width:100%;
+margin-bottom:10px;
+}
+
+/* group wall create css */
+
+/* group wall detail page */
+
+/* group wall create css */
+
+/* group wall detail page */
+
+.componentcontent .group_wall {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+
+.componentcontent .group_wall #group-discussion-topic {
+width:100%;
+float:left;
+border-bottom: 1px solid #DDDDDD;
+margin-bottom: 10px;
+}
+
+.componentcontent .group_wall .author-avatar {
+float:left;
+width:20%;
+}
+
+.group_wall .author-avatar a img.avatar {
+border: 1px solid #CCCCCC;
+padding: 1px;
+width:48px;
+}
+
+.componentcontent .group_wall .discussion-detail {
+width:80%;
+float:left;
+margin-bottom:10px;
+
+}
+
+.componentcontent .group_wall .discussion-detail .discussion-created {
+background: url("../images/icon-discussion.png") no-repeat 0 3px transparent;
+float:left;
+width:92%;
+padding-left:8%;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.componentcontent .group_wall .discussion-detail .discussion-entry {
+float:left;
+width:100%;
+}
+
+.group_wall .app-box,
+.group_wall #wallForm {
+width:100%;
+float:left;
+}
+
+.group_wall #wallForm {
+border-bottom: 1px solid #DDDDDD;
+margin-bottom: 10px;
+padding-bottom: 20px;
+}
+
+.componentcontent .group_wall .wall-tittle {
+float: left;
+font-weight: bold;
+padding: 0 0 10px;
+width: 100%;
+}
+
+.componentcontent .group_wall div.cavatar {
+float: left;
+width: 20%;
+}
+
+.componentcontent .group_wall div.cavatar_inner {
+float: left;
+width: 20%;
+}
+
+.componentcontent .group_wall div.cavatar img {
+height: 36px;
+width: 36px;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.componentcontent .group_wall div.cavatar_inner img {
+height: 36px;
+width: 36px;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.componentcontent .group_wall .ccontent-avatar {
+float:right;
+width:80%;
+}
+
+.componentcontent .group_wall .show_inner_Comment {
+float:left;
+width:100%;
+border-bottom:1px solid #014368;
+margin:5px 0;
+}
+
+.componentcontent .group_wall .ccontent-avatar textarea {
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+
+.componentcontent .group_wall .ccontent-avatar .maincontent {
+margin-bottom:10px;
+}
+
+.componentcontent .group_wall .show_inner_Comment textarea {
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+
+.componentcontent .group_wall div.ccontent-avatar .date .createdate{
+background: url("../images/comment_clock.png") no-repeat scroll left 0 transparent;
+height: 20px;
+padding: 2px 0 0 20px;
+vertical-align: middle;
+}
+
+.componentcontent .group_wall #wallContent {
+float:left;
+width:100%;
+padding-top:10px;
+}
+
+.componentcontent .group_wall .ccontent-avatar .inner_comment{
+color: #FFFFFF;
+font-size: 16px;
+font-weight: bold;
+}
+
+.componentcontent .group_wall #wallContent .main_comment {
+background-color:#014368;
+height:40px;
+margin-bottom:4px;
+}
+
+/* group discussion detail page */
+
+/* login page css */
+
+.inputfldst #com-form-login-username #username,
+
+.inputfldst #com-form-login-password #passwd
+
+{
+
+background: url("../images/login_inputbox.png") no-repeat scroll left top transparent;
+
+border: medium none;
+
+float: left;
+
+height: 31px;
+
+padding-left: 10px;
+
+width: 295px;
+
+}
+
+.inputfldst #com-form-login-username label,
+
+.inputfldst #com-form-login-password label,
+
+.inputfldst #com-form-login-remember label
+
+{
+
+float: left;
+
+padding-bottom: 10px;
+
+padding-left: 2%;
+
+width: 98%;
+
+}
+
+.inputfldst #com-form-login-remember label {
+
+width:auto; }
+
+/* login page css */
+
+/* registration page css */
+
+#content .registration-form {
+
+float:left;
+
+width:97%;
+
+padding-left:3%;
+
+padding-top:3%;
+
+padding-bottom:3%;
+
+}
+
+.registration-form input[type="text"],
+
+.registration-form input[type="password"]
+
+{
+
+background: url("../images/textbox.png") no-repeat scroll left top transparent;
+
+border: medium none;
+
+height: 23px;
+
+padding-left: 10px;
+
+width: 160px;
+
+}
+
+/* registration page css */
+
+/*  lightbox css */
+
+#sbox-window {
+
+margin-left: -130.5px!important;
+
+}
+
+#error_info {
+
+float:left;
+
+width:100%;
+
+}
+
+
+
+dl#system-message {
+
+float:left;
+
+width:100%;
+
+}
+
+
+
+dl#system-message dt {
+
+background: none repeat scroll 0 0 #333333;
+
+color: #FFFFFF;
+
+float: left;
+
+font-size: 16px;
+
+font-weight: bold;
+
+height: 25px;
+
+margin-bottom: 3%;
+
+padding-left: 2%;
+
+padding-top: 5px;
+
+width: 98.4%;
+
+}
+
+dl#system-message dd,
+dl#system-message dd ul,
+dl#system-message dd ul li
+{
+float:left;
+width:100%;
+}
+dl#system-message dd ul li {
+float: left;
+padding-bottom: 3%;
+padding-left: 2%;
+width: 98%;
+}
+
+/*  lightbox css */
+/* group bulletin css */
+.componentcontent .groupbulletincontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+.componentcontent .groupbulletincontainer a {
+font-weight:bold;
+color:#fff;
+}
+.componentcontent .groupbulletincontainer .groups-news-row {
+background: url("../images/sap.png") repeat-x scroll left bottom transparent;
+float: left;
+padding-bottom: 10px;
+padding-top: 10px;
+width: 100%;
+}
+.componentcontent .groupbulletincontainer .groups-news-title {
+background: url("../images/icon-announcement.png") no-repeat scroll 0 0px transparent;
+float: left;
+height: 16px;
+padding-left: 7%;
+width: 93%;
+}
+.componentcontent .groupbulletincontainer .groups-news-meta,
+.componentcontent .groupbulletincontainer .groups-news-text {
+float: left;
+padding-left: 7%;
+width: 93% !important;
+}
+/* group bulletin css */
+/* inbox css changes */
+#content .column {
+float:left;
+width:100%;
+}
+#content .column .community-empty-list {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+.outbox-list .msgarrow {
+background: url("../images/arrow.png") no-repeat scroll right top transparent;
+height: 30px;
+}
+/* inbox css changes */
+/* friends css changes */
+.friendscontainer, .searchcontainer , 
+.friendscontainer .col100, 
+.searchcontainer .col100{
+float:left;
+width:100%;
+}
+.friendscontainer .col100 #friend_main,
+.searchcontainer .col100 #friend_mai
+{
+float:left;
+width:94%;
+padding-top:3%;
+padding-left:3%;
+padding-bottom:3%;
+padding-right:3%;
+margin-top:0px!important;
+}
+.searchcontainer #result {
+width:94%;
+margin-left:3%;
+margin-bottom:3%;
+margin-top:3%;
+margin-right:0px;
+text-align:center;
+}
+#friend_main #result .profile_name a 
+.searchcontainer #result .profile_name a 
+{
+color:#fff;
+}
+/* friends css changes */
+/* add friend css */
+.componentcontent .addFriendContainer,
+.componentcontent .addFriendContainer #cWindowContentTop,
+.componentcontent .addFriendContainer .windowcontent {
+float:left;
+width:100%;
+}
+.componentcontent .addFriendContainer #cWindowContentTop #cwin_logo {
+float: left;
+padding-left: 6px;
+padding-top: 9px;
+}
+.componentcontent .addFriendContainer .windowcontent p {
+float: left;
+margin-bottom: 2%;
+padding-left: 2%;
+padding-top: 2%;
+width: 98%;
+}
+.componentcontent .addFriendContainer .windowcontent form#addfriend {
+float: left;
+padding-left: 2%;
+width: 98%;
+}
+.componentcontent .addFriendContainer .windowcontent form#addfriend img {
+float: left;
+height: 32px;
+padding: 5px;
+width: 32px;
+}
+.componentcontent .addFriendContainer .windowcontent form#addfriend textarea {
+float:left;
+width:190px;
+height:40px;
+margin-bottom:5px;
+}
+/* add friend css */
+/* message detail css */
+.componentcontent .col1 {
+float: left;
+margin-bottom: 3%;
+margin-left: 3%;
+margin-top: 3%;
+width: 94%;
+}
+.componentcontent .col1 .compose_item span {
+float:left;
+width:76%!important;
+padding-left:2%;
+}
+/* message detail css */
+/*bulletin detail page */
+/*bulletin detail page*/
+/* group discussion detail page */
+.componentcontent .grpbulldetailcontainer {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 3%;
+width: 94%;
+}
+.componentcontent .grpbulldetailcontainer #group-buletin-topic {
+width:100%;
+float:left;
+border-bottom: 1px solid #DDDDDD;
+padding-bottom: 10px;
+}
+.componentcontent .grpbulldetailcontainer .author-avatar {
+float:left;
+width:20%;
+}
+.grpbulldetailcontainer .author-avatar a img.avatar {
+border: 1px solid #CCCCCC;
+padding: 1px;
+width:48px;
+}
+.componentcontent .grpbulldetailcontainer .buletin-detail {
+width:80%;
+float:left;
+margin-bottom:10px;
+}
+
+.componentcontent .grpbulldetailcontainer .buletin-created {
+background: url("../images/icon-announcement.png") no-repeat scroll 0 0 transparent;
+float: left;
+height: 16px;
+padding-left: 7%;
+width: 93%;
+padding-bottom:5px;
+border-bottom:1px solid #fff;
+margin-bottom:5px;
+}
+
+<!---------- event wall ---------->
+
+.componentcontent .event_wall {
+float: left;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-top: 0%;
+width: 94%;
+}
+
+.event_wall_heading{
+float:left;
+padding:10px;
+margin:10px 0;
+width:100%;
+background-color:#014368;
+}
+
+.componentcontent .app-box-content_event_wall {
+float: left;
+padding-left: 3%;
+padding-top: 0%;
+width: 94%;
+padding-bottom:3%;
+}
+
+.componentcontent .event_wall .author-avatar {
+float:left;
+width:20%;
+}
+
+.event_wall .author-avatar a img.avatar {
+border: 1px solid #CCCCCC;
+padding: 1px;
+width:48px;
+}
+
+
+.event_wall .app-box,
+.event_wall #wallForm {
+width:100%;
+float:left;
+}
+
+.event_wall #wallForm {
+border-bottom: 1px solid #DDDDDD;
+margin-bottom: 10px;
+padding-bottom: 20px;
+}
+
+.componentcontent .event_wall .wall-tittle {
+float: left;
+font-weight: bold;
+padding: 0 0 10px;
+width: 100%;
+}
+
+.componentcontent .event_wall div.cavatar {
+float: left;
+width: 20%;
+}
+
+.componentcontent .event_wall div.cavatar_inner {
+float: left;
+width: 20%;
+}
+
+.componentcontent .event_wall div.cavatar img {
+height: 36px;
+width: 36px;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.componentcontent .event_wall div.cavatar_inner img {
+height: 36px;
+width: 36px;
+border: 1px solid #CCCCCC;
+padding: 1px;
+}
+
+.componentcontent .event_wall .ccontent-avatar {
+float:right;
+width:80%;
+}
+
+.componentcontent .event_wall .show_inner_Comment {
+float:left;
+width:100%;
+border-bottom:1px solid #014368;
+margin:5px 0;
+}
+
+.componentcontent .event_wall .ccontent-avatar textarea {
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+
+.componentcontent .event_wall .ccontent-avatar .maincontent {
+margin-bottom:10px;
+}
+
+.componentcontent .event_wall .show_inner_Comment textarea {
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+
+.componentcontent .event_wall div.ccontent-avatar .date .createdate{
+background: url("../images/comment_clock.png") no-repeat scroll left 0 transparent;
+height: 20px;
+padding: 2px 0 0 20px;
+vertical-align: middle;
+}
+
+.componentcontent .event_wall #wallContent {
+float:left;
+width:100%;
+padding-top:10px;
+}
+
+.componentcontent .event_wall .ccontent-avatar .inner_comment{
+color: #FFFFFF;
+font-size: 16px;
+font-weight: bold;
+}
+
+.componentcontent .event_wall #wallContent .main_comment {
+background-color:#014368;
+height:40px;
+margin-bottom:4px;
+}
+.app-box-content_event_wall a {
+font-size:16px;
+color:#fff;
+font-weight:bold;
+}

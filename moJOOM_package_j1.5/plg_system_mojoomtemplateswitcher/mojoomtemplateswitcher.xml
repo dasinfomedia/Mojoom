@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Mojoom Template Switcher</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<author>Dasinfomedia Team</author>
+	<authorEmail>sales@dasinfomedia.com</authorEmail>	
+	<authorUrl>http://www.dasinfomedia.com</authorUrl>
+	<creationDate>2011-09-29</creationDate>
+	<copyright>(C) 2011 - 2012, Dasinfomedia Pvt Ltd</copyright>
+	<version>1.0.0</version>	
+	<description>Mojoom Template Switcher!</description>
+	<files>
+		<filename plugin="mojoomtemplateswitcher">mojoomtemplateswitcher.php</filename>
+	</files>
+
+	<params>
+
+	</params>
+
+</install>

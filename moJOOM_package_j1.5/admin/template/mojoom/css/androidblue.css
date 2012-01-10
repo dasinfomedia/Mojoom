@@ -1,0 +1,13 @@
+#content #header_title_groups, #content #header_title_events {
+width:61%!important;
+}
+#createGroup #header_text #forward {
+width:19%!important;
+}
+#content #header_text .android {
+width:19%!important;
+}
+#profile_menu .android {
+	letter-spacing:1px;
+	margin-top:5px!important;
+}

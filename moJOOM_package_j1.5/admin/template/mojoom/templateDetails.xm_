@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<install version="1.5" type="template">
+<name>moJOOM</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<author>Dasinfomedia Team</author>
+	<authorEmail>sales@dasinfomedia.com</authorEmail>
+	<authorUrl>http://www.dasinfomedia.com</authorUrl>
+	<creationDate>2011-09-29</creationDate>
+	<copyright>2003 - 2011, Dasinfomedia Pvt Ltd</copyright>
+	<version>1.0.0</version>
+	<description>
+		Mobile base social Networking Template...
+	</description>
+	<files>
+		<folder>jquery.mobile-1.0b1</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>		
+	</files>
+
+</install>

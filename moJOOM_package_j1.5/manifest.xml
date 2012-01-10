@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>moJOOM</name>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<author>Dasinfomedia Team</author>
+	<authorEmail>sales@dasinfomedia.com</authorEmail>
+	<authorUrl>http://www.dasinfomedia.com</authorUrl>
+	<creationDate>2011-09-29</creationDate>
+	<copyright>2003 - 2011, Dasinfomedia Pvt Ltd</copyright>
+	<version>1.0.0</version>
+	<description>
+		Mobile base social Networking with many more...
+	</description>
+	<installfile>install/install.php</installfile>
+	<uninstallfile>install/uninstall.php</uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">install/uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+    <files folder="site">
+		<folder>controllers</folder>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>controller.php</filename>
+		<filename>mojoom.php</filename>
+		<filename>index.html</filename>
+    </files>
+    <languages>
+		<language tag="en-GB">languages/site/en-GB.com_mojoom.ini</language>
+	</languages>
+    
+	<administration>
+		<menu img="../components/com_mojoom/images/mojoom.png">moJOOM</menu>
+	    
+	    <files folder="admin">
+		    <folder>controllers</folder>
+			<folder>images</folder>
+			<folder>tables</folder>
+			<folder>install</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>template</folder>
+			<filename>controller.php</filename>
+			<filename>mojoom.php</filename>
+			<filename>index.html</filename>
+	    </files>
+		<languages>
+			<language tag="en-GB">languages/admin/en-GB.com_mojoom.ini</language>
+		</languages>
+ 	</administration>
+
+	<params />
+	<!-- Mojoom System Plugin start -->	
+	<plugins>
+		<plugin plugin="mojoomtemplateswitcher"  group="system">
+			<files folder="plg_system_mojoomtemplateswitcher">
+				<file>mojoomtemplateswitcher.php</file>
+				<file>mojoomtemplateswitcher.xml</file>
+			</files>
+			<media />
+		</plugin>
+	</plugins>
+	
+	<!-- Mojoom System Plugin end -->
+	
+	<check>
+		<directory>/plugins/system</directory>
+		<directory>/templates</directory>
+		<extension name="mojoomtemplateswitcher" type="plugins" field="published" value="1">element='mojoomtemplateswitcher'</extension>
+		<extension name="mojoom" type="template" field="published" value="1">element='Mojoom'</extension>		
+	</check>
+</install>
