@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.7" type="plugin" method="upgrade"  group="system">
+	<name>Mojoom</name>
+	<license>Open Source License, GPL v2 based</license>
+	<author>Dasinfomedia Team</author>
+	<authorEmail>sales@dasinfomedia.com</authorEmail>	
+	<authorUrl>http://www.dasinfomedia.com</authorUrl>
+	<creationDate>2011-09-29</creationDate>
+	<copyright>(C) 2011 - 2012, Dasinfomedia Pvt Ltd</copyright>
+	<version>1.0.0</version>	
+	<description>Mojoom Template Switcher!</description>
+	<files>
+		<filename plugin="MojoomSwitcher">mojoomswitcher.php</filename>
+	</files>
+<params/>
+</extension>

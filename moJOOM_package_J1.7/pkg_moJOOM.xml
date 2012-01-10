@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+	<name>moJOOM Packages</name>
+	<packagename>moJOOM</packagename>
+	<version>1.7.0</version>
+	<url>http://www.dasinfomedia.com</url>
+	<packager>Dasinfomedia Team</packager>
+	<description>Joomla! Installer Sample and Test Package.</description>
+	<update>http://update.itprism.com/packages/helloworld</update>
+	<files folder="packages">
+		<file type="component" 	id="com_mojoom" >com_mojoom.zip</file>
+		<file type="plugin"		id="mojoom"		group="system">plg_system_mojoomswitcher.zip</file>
+	</files>
+</extension>
